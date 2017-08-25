@@ -1,0 +1,40 @@
+
+<div id="header">
+    <div id=preHeaderPics>
+        <img src="/images/QAEALogo.jpg" id="logo">
+        <img src="/images/DadAndSon.jpg" id="pic8">
+    </div>
+    <div id="headerWords">
+    <h1>Queen Anne Educational Assessment</h1>
+    <h2>Monica C. Wilson, Ed.S., NCSP</h2>
+        <div id="headerImages">
+            <img src="/images/boyGlasses.jpeg" id="pic1">
+            <div id="picsgroup2">
+                <img src="/images/BoyHands.jpeg" id="pic2">
+                <img src="/images/BoysEating.jpg" id="pic3">
+            </div>
+            <img src="/images/twoGirls.jpeg" id="pic5">
+        </div>
+    </div>
+    <img src="/images/GirlYelling.jpeg" id="pic4">
+</div>
+<div id="headerBar">
+    <br>
+</div>
+<nav id="headerLinks">
+    <a href='/'>Home</a>
+    <a href='/about'>About</a>
+    <a href='/services'>Services</a>
+    <a href='/forms'>Forms</a>
+    <a href='/fees'>Fees</a>
+    <a href='/appointmentsSelect'>Appointments</a>
+    @{if(@ViewBag.loggedIn == true){
+        <a href="/logout">Logout</a><br>
+        <p>You are logged in as @ViewBag.currentUser.FirstName.</p>
+    }
+    else{
+        <a href='/login'>Login/Register</a>
+    }
+    }
+    <hr>
+</nav>

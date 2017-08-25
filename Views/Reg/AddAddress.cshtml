@@ -1,0 +1,21 @@
+@model qaea.Models.AddressViewModel
+
+@{
+    ViewData["Title"] = "Login/Registration";
+}
+<div id="addAddress">
+    <h2>Please Enter Your Address</h2>
+    <form asp-controller="Reg" asp-action="addAddress" method="POST">
+        <span asp-validation-for="Address1"></span><br>
+        Line 1 <input type="text" name="Address1"><br>
+        Line 2 <input type="text" name="Address2"><br>
+        <span asp-validation-for="City"></span><br>
+        City <input type="text" name="City"><br>
+        <span asp-validation-for="State"></span><br>
+        State <input type="text" name="State"><br>
+        <span asp-validation-for="ZipCode"></span><br>
+        Zip Code <input type="text" name="ZipCode"><br>
+        <input type="hidden" name="userID" value="@ViewBag.currentUser.UserID">
+        <input type="submit" value="Add Address">
+    </form>
+</div>

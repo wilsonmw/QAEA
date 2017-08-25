@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Appointments";
+}
+<div id="newAppointment">
+    <h2>Schedule a New Appointment</h2>
+    <form action="/createAppointment" method="POST">
+        Date <input type="date" name="date">
+        Reason <input type="text" name="reason">
+        <input type="submit" value="Add Appointment">
+
+    </form>
+</div>

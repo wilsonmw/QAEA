@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Appointments";
+}
+<div id="appointmentContent">
+<h2>Upcoming Events</h2>
+
+@{foreach (var thing in @ViewBag.upcoming.Items){
+    <h3>@thing.Summary</h3>
+    <h3>@thing.Start.DateTime</h3>
+}}
+<h3>@ViewBag.newAppointment</h3>
+<h3>@ViewBag.newDate</h3>
+
+</div>

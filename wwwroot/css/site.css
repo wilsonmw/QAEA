@@ -1,0 +1,204 @@
+/*Write all of your CSS here*/
+*{
+    font-family: sans-serif;
+}
+#preHeaderPics{
+    display: inline-block;
+    width: 8%;
+    vertical-align: bottom;
+    margin-bottom: 8px;
+}
+#logo{
+    display: block;
+    margin-top: 2%;
+    width: 99%;
+    margin-bottom: 20px;
+}
+#pic8{
+    width: 130%;
+}
+#headerWords{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-shadow: 2px 2px Gray;
+    background-color: white;
+    color: #2253AB;
+    padding: 7px 0px 7px 7px;
+}
+
+#headerImages{
+    display: inline-block;
+    width: 99%;
+}
+
+#header{
+    width: 60%;
+    margin-left: 15%;
+    text-align: center;    
+}
+
+#pic1{
+    width: 40%;
+    vertical-align: top;
+}
+#pic2{
+    width: 99%;
+    display: block;
+}
+#pic3{
+    width: 99%;
+    display: block;
+    margin-top: 5px;
+}
+#picsgroup2{
+    display: inline-block;
+    width: 18%;
+}
+#pic4{
+    width: 20%;
+    vertical-align: bottom;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#pic5{
+    width: 40%;
+    vertical-align: top;
+}
+
+#headerBar{
+    width: 50%;
+    margin-left: 20%;
+    background-color: #2253AB;
+    height: 10px;
+}
+#headerLinks{
+    margin-left: 20%;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+}
+#headerLinks a{
+    margin-left: 5%;
+}
+#headerLinks p{
+    font-size: 0.7em;
+    margin-bottom: 0px;
+}
+#homeContent{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#homeContent h2{
+    margin-bottom: 1px;
+    width: 75%;
+}
+#homeP{
+    margin-top: 1px;
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+#homeP p{
+    margin-top: 1px;
+}
+#pic6{
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    box-shadow: 4px 4px 0px 0px;
+    margin-top: -30px;
+}
+#footerBar{
+    background-color: #2253AB;
+    height: 10px;
+}
+#footer{
+    width: 50%;
+    margin-left: 20%;    
+}
+#footer p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 0.8em;
+}
+#aboutContent{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#num1text, #num2text, #num3text, #num4text{
+    display: none; 
+}
+
+#servicesContent{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#servicesContent li{
+    margin-top: 4px;
+}
+#servicesList{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    width: 37%;
+}
+#pic7{
+    display: inline-block;
+    width: 45%;
+    margin-left: 17%;
+    box-shadow: 4px 4px 0px 0px;
+}
+#feeContent{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#feeContent td{
+    padding-left: 20px;
+}
+#loginPage{
+    width: 45%;
+    margin-left: 22%;  
+}
+.regPage{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: gray;
+    width: 40%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    margin-left: 3%;
+    box-shadow: 5px 5px 0px 0px;
+}
+span{
+    color: red;
+}
+.button{
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 0px 0px;
+}
+
+#appointmentContent{
+    width: 45%;
+    margin-left: 22.5%;
+}
+
+#appointmentsSelect{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#appointmentsSelect a{
+    margin-left: 3%;
+}
+#newAppointment{
+    width: 45%;
+    margin-left: 22.5%;
+}
+#formContent{
+    width: 45%;
+    margin-left: 22.5%;
+}

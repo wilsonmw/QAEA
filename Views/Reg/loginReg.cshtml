@@ -1,0 +1,50 @@
+@model qaea.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Login/Registration";
+}
+<div id="loginPage">
+<h1>Please Log In or Register</h1>
+
+<div class="regPage">
+    <h3>Login</h3>
+    <p style="color: red">@ViewBag.loginError</p>
+    <form asp-controller="Reg" asp-action="Login" method="POST">
+        <br>Email Address<br> <input type='text' name='Email'><br>
+        <br>
+        Password<br> <input type='password' name='Password'><br>
+        <br>
+        <input type="submit" value="Login" class="button">
+    </form>
+</div>
+
+<div class="regPage">    
+    <h3>Register</h3>
+    <p style="color: red">@ViewBag.existsError</p>
+    <form asp-controller="Reg" asp-action="Register" method="POST">
+        <span asp-validation-for="FirstName"></span><br>
+        <label asp-for="FirstName"></label><br>
+        <input asp-for="FirstName"><br>
+
+        <span asp-validation-for="LastName"></span><br>
+        <label asp-for="LastName"></label><br>
+        <input asp-for="LastName"><br>
+        
+        <span asp-validation-for="Email"></span><br>
+        <label asp-for="Email"></label><br>
+        <input asp-for="Email"><br>
+
+        <span asp-validation-for="Password"></span><br>
+        <label asp-for="Password"></label><br>
+        <input type="password" asp-for="Password"><br>
+
+        <span asp-validation-for="PWConfirm"></span><br>
+        <label asp-for="PWConfirm"></label><br>
+        <input type = "password" asp-for="PWConfirm"><br>
+        <br>
+
+        <input type="submit" value="Register" class="button">
+    </form>
+    <br>
+</div>
+</div>
